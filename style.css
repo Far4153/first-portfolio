@@ -1,0 +1,44 @@
+*{
+    border: 0px;
+    padding: 0%;
+    margin: 0%;
+}
+.navbar{
+    width: 100%;
+    height: 40px;
+    background-color: rgb(50, 47, 47);
+}
+.navbar p{
+    padding: 9px;
+    color: rgb(255, 255, 255);
+    font-weight: 400;
+}
+.profilecontainer{
+    width: 100%;
+    height: 500px;
+    background-color: black;
+}
+.slantline{
+    width: 1590px;
+    height: 2px;
+    background-color: white;
+    transform: rotate(15deg);
+    transform-origin: 0 0;
+    opacity: 0; /* Initially, make it transparent */
+    animation: fadeIn 2s ease-in-out forwards; /* Apply the fadeIn animation */
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0; /* Start with full transparency */
+    }
+    100% {
+        opacity: 1; /* End with full opacity */
+    }
+}
+
+img{
+    border-radius: 50%;
+    width: 150px;
+    transform: translate(950px, 200px);
+}

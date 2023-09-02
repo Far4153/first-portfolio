@@ -85,7 +85,7 @@ max-width: 30%; /* Ensure images do not exceed the width of their container */
 height: auto;
 }
 .skill p{
-    
+        color: black;
         margin-top: 10px; /* Add space below the image */
         font-weight: bold; /* Make the skill label bold */
     }
@@ -132,6 +132,7 @@ height: auto;
 }
 .skill-section h3{
     /* text-align: center; */
+
     padding-top: 40px;
     padding-left: 40px;
     

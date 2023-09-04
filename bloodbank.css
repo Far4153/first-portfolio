@@ -164,6 +164,8 @@ button:hover{
     display: flex;
   }
 
+ 
+
   @media (max-width:786px){
     .slider{
         max-width: 260px;

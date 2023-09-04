@@ -10,6 +10,7 @@
     align-items: center;
     justify-content: center;
     min-height: 710px;
+    max-height: 1200px;
     background: black;
 }
 
@@ -67,3 +68,14 @@ h2 {
     transform: scale(1.1); /* Scale up the image by 10% on hover */
     transition: transform 0.3s ease; /* Add a smooth transition effect */
 }
+@media screen and (max-width: 768px) {
+    .container {
+     height: 1000px;
+
+    }
+
+    .project{
+        width: 350px;
+    }
+    /* Adjust other styles for smaller screens */
+  }

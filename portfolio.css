@@ -56,13 +56,15 @@ button:hover{
 .slider{
     max-width: 1010px;
     /* min-width: 200px; */
+    /* height: 460px; */
     position: relative;
     margin: 30px;
     display: flex;
 
     flex-direction: row;
     border: 5px solid #000000;
-    border-radius: 20px;
+    border-radius: 24px;
+    background-color: #000000;
 
 }
 .slide-image {

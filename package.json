@@ -1,0 +1,28 @@
+{
+  "name": "my-portfolio",
+  "version": "1.0.0",
+  "description": "this is a basic portfolio website.",
+  "main": "index.html",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Far4153/first-portfolio.git"
+  },
+  "keywords": [
+    "basic-portfolio"
+  ],
+  "author": "farjana s",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Far4153/first-portfolio/issues"
+  },
+  "homepage": "https://github.com/Far4153/first-portfolio#readme",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-imagemin": "^8.0.0",
+    "gulp-uglify": "^3.0.2"
+  }
+}
